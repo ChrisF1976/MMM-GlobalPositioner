@@ -64,7 +64,7 @@ npm install
 
 ## Examples:
 
-**Debug=true,**
+**Debug: true,**
 
 ![Demo](./img/z_Debug_true.png)
 
