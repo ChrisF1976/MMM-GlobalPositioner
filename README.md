@@ -16,7 +16,8 @@ MagicMirror² module to globally reposition other modules on screen via fixed co
 
 1. Clone into your `MagicMirror/modules` directory:
 ```bash
-git clone https://github.com/your-repo/MMM-GlobalPositioner.git
+git clone https://github.com/ChrisF1976/MMM-GlobalPositioner.git
+npm install
 ```
 
 2. Add configuration to your `config.js`:
