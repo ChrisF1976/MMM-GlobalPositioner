@@ -40,4 +40,26 @@ npm install
 },
 ```
 
-#
+## How It Works
+
+- Creates individual fixed-position containers
+- Moves modules into their dedicated containers
+- Applies precise positioning via CSS
+- Maintains original module functionality
+
+## Troubleshooting
+
+*Q: My module isn't moving*
+
+- Verify the module name matches exactly
+- Check browser console for errors
+- Increase delay or maxAttempts
+
+*Q: Elements overlap incorrectly*
+
+- Adjust zIndex in your module config
+- Use different coordinate pairs (top+left instead of bottom+right)
+  
+## License
+
+MIT © [ChrisF1976]
