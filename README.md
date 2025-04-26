@@ -21,3 +21,22 @@ git clone https://github.com/your-repo/MMM-GlobalPositioner.git
 
 2. Add configuration to your `config.js`:
 
+```javascript
+{
+  module: "MMM-GlobalPositioner",
+  config: {
+    modules: [
+      {
+        name: "clock", // Must match module name exactly
+        position: { 
+                  top: 100,    // Position from top
+                  right: 50    // Position from right
+                   }
+      //add as much modules as you like
+      }
+    ]
+  }
+},
+```
+
+#
