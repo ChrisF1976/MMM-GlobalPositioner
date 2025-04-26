@@ -26,19 +26,33 @@ npm install
 {
   module: "MMM-GlobalPositioner",
   config: {
+    debug: true,
+    delay: 1000,
+    maxAttempts: 5,
     modules: [
       {
-        name: "clock", // Must match module name exactly
-        position: { 
-                  top: 100,    // Position from top
-                  right: 50    // Position from right
-                   }
-      //add as much modules as you like
+        name: "clock",
+        position: { top: 20, left: 20 }
+      },
+      {
+        name: "calendar",
+        position: { bottom: 30, right: 50 }
       }
+      //add as much modules as you like
     ]
   }
 },
 ```
+## Config-Parameters
+
+| Name         | Type    | Default  | Description                                                        |
+|--------------|---------|----------|--------------------------------------------------------------------|
+| `modules`    | Array   | `[]`     | List of modules with target positions                              |
+| `delay`      | Number  | `1000`   | Delay in milliseconds before the first positioning attempt         |
+| `maxAttempts`| Number  | `5`      | How many times the module tries to find and position other modules |
+| `debug`      | Boolean | `true`   | If enabled, draws green borders around positioned containers       |
+
+
 
 ## How It Works
 
