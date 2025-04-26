@@ -1,6 +1,7 @@
 # MMM-GlobalPositioner
 MagicMirror² module to globally reposition other modules on screen via fixed coordinates.
 
+Positioned:
 ![Demo](./img/New_Position.png)
 
 ## Features
@@ -61,15 +62,25 @@ npm install
 - Applies precise positioning via CSS
 - Maintains original module functionality
 
+## Examples:
+
+**Debug=true,**
+
+![Demo](./img/z_Debug_true.png)
+
+**Original_Position**
+
+![Demo](./img/Original_Position.png)
+
 ## Troubleshooting
 
-*Q: My module isn't moving*
+**Q: My module isn't moving**
 
 - Verify the module name matches exactly
 - Check browser console for errors
 - Increase delay or maxAttempts
 
-*Q: Elements overlap incorrectly*
+**Q: Elements overlap incorrectly**
 
 - Adjust zIndex in your module config
 - Use different coordinate pairs (top+left instead of bottom+right)
