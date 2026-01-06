@@ -17,7 +17,9 @@ Positioned:
 
 1. Clone into your `MagicMirror/modules` directory:
 ```bash
+cd ~/MagicMirror/modules
 git clone https://github.com/ChrisF1976/MMM-GlobalPositioner.git
+cd MMM-GlobalPositioner
 npm install
 ```
 
